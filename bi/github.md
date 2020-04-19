@@ -30,4 +30,22 @@
   >密码 
 ```
 
+==删除  github  上部分文件夹== 
+
+ 1. 先到仓库目录下 
+ 2. 删除文件夹r or 文件 f
+```python
+   git rm -r --cached target 
+```
+
+ 3. 提交删除注释
+```python
+   git commit -m '删除了target' 
+```
+
+ 4. 提交操作 
+```python
+   git push -u origin master
+```
+
 
